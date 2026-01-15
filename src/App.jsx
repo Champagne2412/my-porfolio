@@ -4,8 +4,8 @@ import Navbar from "./Layout/Navbar";
 import Hero from "@/sections/Hero.jsx";
 import About from "@/sections/About.jsx";
 import Project from "@/sections/Projects.jsx";
+import Qualifications from "@/sections/Qualifications.jsx";
 import Experience from "@/sections/Experience.jsx";
-import Testimonials from "@/sections/Testimonials.jsx";
 import Contact from "@/sections/Contacts.jsx";
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
         <Hero />
         <About />
         <Project />
+        <Qualifications/>
         <Experience />
-        <Testimonials />
         <Contact />
       </main>
     </div>

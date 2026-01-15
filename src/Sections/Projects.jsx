@@ -92,7 +92,7 @@ const Projects = () => {
             Projects that
             <span className="font-serif italic font-normal text-white">
               {" "}
-              make an impact.
+              makes an impact.
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
