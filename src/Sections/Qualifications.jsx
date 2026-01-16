@@ -8,16 +8,15 @@ const Qualifications = () => {
       description:
         "Built server-side applications using Node.js, Express, and MongoDB, focusing on API development, database operations, authentication, and application logic.",
       technologies: ["Node JS", "Express JS", "Mongo DB"],
-      current: true
+      current: true,
     },
     {
       period: "2025",
       heading: "Frontend Development (Technical Training)",
       description:
-      "Completed structured training in frontend development, covering HTML, CSS, JavaScript, and modern web development fundamentals.",
-      technologies: ["html", "Css", "Tailwind Css", "Javascript", "React JS"],
+        "Completed structured training in frontend development, covering HTML, CSS, JavaScript, and modern web development fundamentals.",
+      technologies: ["Html", "Css", "Tailwind Css", "Javascript", "React JS"],
       current: false,
-      
     },
     {
       period: "2019-2024",
@@ -64,21 +63,44 @@ const Qualifications = () => {
                 style={{ animationDelay: `${(index + 1) * 150}ms` }}
               >
                 {/* timeline dot */}
-                <div  className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10"> 
+                <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10">
                   {qualification.current && (
-                      <span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-75" /> 
-                      )} 
-                  </div>
+                    <span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-75" />
+                  )}
+                </div>
 
                 {/* content */}
-                <div className={`pl-8 md:pl-0 ${index % 2 === 0  ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16" }`}>
-                  <div className={`glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500`}>
-                    <span className="text-sm text-primary font-medium">{qualification.period}</span>
-                    <h3 className="text-xl font-semibold mt-2">{qualification.heading}</h3>
-                    <p className="text-sm text-muted-foreground mt-4">{qualification.description}</p>
-                    <div>
+                <div
+                  className={`pl-8 md:pl-0 ${
+                    index % 2 === 0
+                      ? "md:pr-16 md:text-right"
+                      : "md:col-start-2 md:pl-16"
+                  }`}
+                >
+                  <div
+                    className={`glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500`}
+                  >
+                    <span className="text-sm text-primary font-medium">
+                      {qualification.period}
+                    </span>
+                    <h3 className="text-xl font-semibold mt-2">
+                      {qualification.heading}
+                    </h3>
+                    <p className="text-sm text-muted-foreground mt-4">
+                      {qualification.description}
+                    </p>
+                    <div
+                      className={`flex flex-wrap gap-2 mt-4 ${
+                        index % 2 === 0 ? "md:justify-end" : ""
+                      }`}
+                    >
                       {qualification.technologies.map((tech, techindex) => (
-                        <span>{tech}</span>
+                        <span
+                          key={techindex}
+                          className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground"
+                        >
+                          {tech}
+                        </span>
                       ))}
                     </div>
                   </div>
