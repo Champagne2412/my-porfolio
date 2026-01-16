@@ -6,8 +6,9 @@ import About from "@/sections/About.jsx";
 import Project from "@/sections/Projects.jsx";
 import Qualifications from "@/sections/Qualifications.jsx";
 import Experience from "@/sections/Experience.jsx";
-import Testimonials from "./Sections/Testimonials";
+// import Testimonials from "./Sections/Testimonials";
 import Contact from "@/sections/Contacts.jsx";
+import Footer from "./Layout/Footer";
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
         <Qualifications />
         <Experience />
         <Project />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 }

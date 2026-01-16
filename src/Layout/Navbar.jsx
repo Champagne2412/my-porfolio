@@ -6,8 +6,8 @@ const Navbar = () => {
   const navLinks = [
     { href: "#about", label: "About" },
     { href: "#qualifications", label: "Qualifications" },
-    { href: "#projects", label: "Projects" },
     { href: "#experience", label: "Experience" },
+    { href: "#projects", label: "Projects" },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -56,7 +56,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className="hidden md:block">
-          <Button size="sm">Contact Me</Button>
+          <a href="#contact">
+            <Button size="sm">Contact Me</Button>
+          </a>
         </div>
 
         {/* mobile button */}
@@ -79,7 +81,10 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Button onClick={() => setIsOpen(false)}>Contact Me</Button>
+            <a href="#contact">
+              {" "}
+              <Button onClick={() => setIsOpen(false)}>Contact Me</Button>
+            </a>
           </div>
         </div>
       )}
