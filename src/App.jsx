@@ -2,12 +2,12 @@ import { useState } from "react";
 import "./App.css";
 import Navbar from "./Layout/Navbar";
 import Hero from "./Sections/Hero";
-import About from "./sections/About.jsx";
-import Project from "./sections/Projects.jsx";
-import Qualifications from "./sections/Qualifications.jsx";
-import Experience from "./sections/Experience.jsx";
+import About from "./Sections/About.jsx";
+import Project from "./Sections/Projects.jsx";
+import Qualifications from "./Sections/Qualifications.jsx";
+import Experience from "./Sections/Experience.jsx";
 // import Testimonials from "./Sections/Testimonials";
-import Contact from "./sections/Contacts.jsx";
+import Contact from "./Sections/Contacts.jsx";
 import Footer from "./Layout/Footer";
 
 function App() {
