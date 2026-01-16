@@ -6,6 +6,7 @@ import About from "@/sections/About.jsx";
 import Project from "@/sections/Projects.jsx";
 import Qualifications from "@/sections/Qualifications.jsx";
 import Experience from "@/sections/Experience.jsx";
+import Testimonials from "./Sections/Testimonials";
 import Contact from "@/sections/Contacts.jsx";
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Qualifications/>
+        <Qualifications />
         <Experience />
         <Project />
+        <Testimonials />
         <Contact />
       </main>
     </div>

@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="flex flex-col justify-center items-center px-8 mt-32 w-[70%] mx-auto"
+      className="flex flex-col justify-center items-center px-8 mt-32 lg:w-[70%] md:w-[90%] mx-auto"
     >
       <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
         My experience
@@ -16,7 +16,7 @@ const Experience = () => {
             (Projects & Practice)
           </span>
         </h3>
-        <p className="text-justify text-lg text-muted-foreground animate-fade-in animation-delay-200">
+        <p className="text-justify text-muted-foreground animate-fade-in animation-delay-200">
           I’ve gained hands-on experience building and maintaining fullstack web
           applications through structured training and real project work. My
           focus has been on creating functional, user-friendly interfaces while
@@ -26,8 +26,8 @@ const Experience = () => {
           <h4 className="text-start my-4 text-secondary-foreground text-2xl  animate-fade-in animation-delay-300">
             What I’ve worked on:
           </h4>
-          <div className="glass w-[80%] flex flex-col items-center mx-auto rounded-2xl mb-10 py-20 px-22 glow-border animate-fade-in animation-delay-400">
-            <ul className=" list-disc justify-start leading-10 items-center text-start italic text-xl">
+          <div className="glass lg:w-[80%] md:w-[95%] flex flex-col items-center mx-auto rounded-2xl mb-10 py-20 px-22 glow-border animate-fade-in animation-delay-400">
+            <ul className=" list-disc justify-start lg:leading-10 items-center text-start italic lg:text-xl md:text-1xl">
               <li>
                 Built frontend interfaces using HTML, CSS, JavaScript, and React
               </li>
