@@ -1,13 +1,13 @@
 import { useState } from "react";
 import "./App.css";
 import Navbar from "./Layout/Navbar";
-import Hero from "@/sections/Hero.jsx";
-import About from "@/sections/About.jsx";
-import Project from "@/sections/Projects.jsx";
-import Qualifications from "@/sections/Qualifications.jsx";
-import Experience from "@/sections/Experience.jsx";
+import Hero from "./Sections/Hero";
+import About from "./sections/About.jsx";
+import Project from "./sections/Projects.jsx";
+import Qualifications from "./sections/Qualifications.jsx";
+import Experience from "./sections/Experience.jsx";
 // import Testimonials from "./Sections/Testimonials";
-import Contact from "@/sections/Contacts.jsx";
+import Contact from "./sections/Contacts.jsx";
 import Footer from "./Layout/Footer";
 
 function App() {
