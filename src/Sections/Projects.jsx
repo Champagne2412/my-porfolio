@@ -17,8 +17,8 @@ const Projects = () => {
         "A frontend food ordering interface that allows users to browse meals, view details, and place orders through a clean and responsive UI.",
       image: project2,
       tags: ["React", "NodeJS", "Express JS", "Mongo DB"],
-      link: "#",
-      github: "#",
+      link: "https://treatmeals-2l484f3d0-michael-iruomas-projects.vercel.app/",
+      github: "https://github.com/Champagne2412/treatmeals",
     },
     {
       title: "Blog Website",
@@ -27,7 +27,7 @@ const Projects = () => {
       image: project9,
       tags: ["React"],
       link: "#",
-      github: "#",
+      github: "https://github.com/Champagne2412/Debug-Diary-blog",
     },
     {
       title: "Food Order E-Commerce Platform",
@@ -35,8 +35,8 @@ const Projects = () => {
         "A fullstack food e-commerce platform with features like user authentication, product listings, cart functionality, and order management.",
       image: project7,
       tags: ["React", "NodeJS", "Express JS", "Mongo DB"],
-      link: "#",
-      github: "#",
+      link: "https://chownow-1.onrender.com/",
+      github: "https://github.com/Champagne2412/ChowNow",
     },
     {
       title: "AI Chatbot Application",
@@ -45,8 +45,8 @@ const Projects = () => {
 
       image: project6,
       tags: ["React", "NodeJS", "Express JS", "Mongo DB", "Gemini API"],
-      link: "#",
-      github: "#",
+      link: "https://ask-oma.vercel.app/",
+      github: "https://github.com/Champagne2412/AskOma",
     },
     {
       title: "School Program Platform",
@@ -54,8 +54,8 @@ const Projects = () => {
         "A frontend platform built to showcase school programs in a structured and easy-to-navigate layout.",
       image: project5,
       tags: ["React"],
-      link: "#",
-      github: "#",
+      link: "https://edustud.vercel.app/",
+      github: "https://github.com/Champagne2412/edustud",
     },
     {
       title: "Hotel Booking Website",
@@ -63,8 +63,8 @@ const Projects = () => {
         "A frontend hotel booking website that allows users to explore rooms, view amenities, and check availability through a modern interface.",
       image: project1,
       tags: ["React"],
-      link: "#",
-      github: "#",
+      link: "https://bookhotelsng.netlify.app/",
+      github: "https://github.com/Champagne2412/bookhotelsNg",
     },
     {
       title: "Personal Blog Platform",
@@ -72,8 +72,8 @@ const Projects = () => {
         "A fullstack personal blog built with Node.js, Express, EJS, and MongoDB, featuring post creation, editing, and dynamic content rendering.",
       image: project3,
       tags: ["EJS", "NodeJS", "Express JS", "Mongo DB"],
-      link: "#",
-      github: "#",
+      link: "https://omasblog.onrender.com/",
+      github: "https://github.com/Champagne2412/My-first-blog",
     },
   ];
 
@@ -125,6 +125,7 @@ const Projects = () => {
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={project.link}
+                    target="blank"
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
                     <ArrowUpRight className="w-5 h-5" />
