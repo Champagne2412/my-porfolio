@@ -14,8 +14,8 @@ import AnimatedBorderButton from "../Components/AnimatedBoarderButton.jsx";
 
 const Hero = () => {
   const socials = [
-    { icon: Github, href: "#" },
-    { icon: Linkedin, href: "#" },
+    { icon: Github, href: "https://github.com/Champagne2412" },
+    { icon: Linkedin, href: "www.linkedin.com/in/iruoma-michael-2612643a7" },
     { icon: Twitter, href: "#" },
   ];
 
@@ -93,15 +93,17 @@ const Hero = () => {
 
             {/* CTA */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-            <a href="#contact">
+              <a href="#contact">
                 <Button size="lg">
                   Contact Me <ArrowRight className="w-5 h-5" />
                 </Button>
-            </a>
-              <AnimatedBorderButton>
-                <Download />
-                Download CV
-              </AnimatedBorderButton>
+              </a>
+              <a href="public/Iruoma-Michael-CV.pdf" download>
+                <AnimatedBorderButton>
+                  <Download />
+                  Download CV
+                </AnimatedBorderButton>
+              </a>
             </div>
 
             {/* Social Links */}
@@ -111,6 +113,7 @@ const Hero = () => {
                 <a
                   key={index}
                   href={social.href}
+                  target="blank"
                   className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                 >
                   {<social.icon className="w-5 h-5" />}

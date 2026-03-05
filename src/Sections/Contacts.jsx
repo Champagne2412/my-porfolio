@@ -22,8 +22,8 @@ const Contacts = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "+234 906 5795 288",
-      href: "+234 906 5795 288",
+      value: "+234 906 579 5288",
+      href: "+234 906 579 5288",
     },
     {
       icon: MapPin,

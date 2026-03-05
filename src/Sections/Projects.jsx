@@ -26,7 +26,7 @@ const Projects = () => {
         "A responsive blog website where users can read articles, explore posts by category, and enjoy a simple, user-friendly reading experience.",
       image: project9,
       tags: ["React"],
-      link: "#",
+      link: "https://debug-diary-blog.vercel.app/",
       github: "https://github.com/Champagne2412/Debug-Diary-blog",
     },
     {
