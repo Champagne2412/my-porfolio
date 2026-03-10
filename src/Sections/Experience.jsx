@@ -17,7 +17,7 @@ const Experience = () => {
           </span>
         </h3>
         <p className=" text-justify text-muted-foreground animate-fade-in animation-delay-200">
-          I’ve gained hands-on experience building and maintaining fullstack web
+          I’ve gained first hand experience building and maintaining fullstack web
           applications through structured training and real project work. My
           focus has been on creating functional, user-friendly interfaces while
           developing reliable backend systems to support them.

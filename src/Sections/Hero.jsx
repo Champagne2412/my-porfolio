@@ -16,7 +16,7 @@ const Hero = () => {
   const socials = [
     { icon: Github, href: "https://github.com/Champagne2412" },
     { icon: Linkedin, href: "www.linkedin.com/in/iruoma-michael-2612643a7" },
-    { icon: Twitter, href: "#" },
+    { icon: Twitter, href: "https://x.com/worstdev3loper" },
   ];
 
   const skills = [
@@ -84,8 +84,8 @@ const Hero = () => {
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
                 I am Oma, a web developer focused on creating simple,
-                user-friendly interfaces with HTML, CSS, JavaScript, and React.
-                I’m seeking an internship opportunity where I can sharpen my
+                user-friendly interfaces with HTML, CSS, Tailwind CSS, JavaScript, React.js, Node.js, Express.js, and database management.
+                I’m actively seeking for web development job opportunity where I can sharpen my
                 skills, collaborate with a team, and build meaningful digital
                 experiences.
               </p>

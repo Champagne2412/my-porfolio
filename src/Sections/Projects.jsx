@@ -11,24 +11,7 @@ import { ArrowUpRight, Github } from "lucide-react";
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Food Ordering Platform",
-      description:
-        "A frontend food ordering interface that allows users to browse meals, view details, and place orders through a clean and responsive UI.",
-      image: project2,
-      tags: ["React", "NodeJS", "Express JS", "Mongo DB"],
-      link: "https://treatmeals-2l484f3d0-michael-iruomas-projects.vercel.app/",
-      github: "https://github.com/Champagne2412/treatmeals",
-    },
-    {
-      title: "Blog Website",
-      description:
-        "A responsive blog website where users can read articles, explore posts by category, and enjoy a simple, user-friendly reading experience.",
-      image: project9,
-      tags: ["React"],
-      link: "https://debug-diary-blog.vercel.app/",
-      github: "https://github.com/Champagne2412/Debug-Diary-blog",
-    },
+    
     {
       title: "Food Order E-Commerce Platform",
       description:
@@ -74,6 +57,24 @@ const Projects = () => {
       tags: ["EJS", "NodeJS", "Express JS", "Mongo DB"],
       link: "https://omasblog.onrender.com/",
       github: "https://github.com/Champagne2412/My-first-blog",
+    },
+    {
+      title: "Food Ordering Platform",
+      description:
+        "A frontend food ordering interface that allows users to browse meals, view details, and place orders through a clean and responsive UI.",
+      image: project2,
+      tags: ["React", "NodeJS", "Express JS", "Mongo DB"],
+      link: "https://treatmeals-2l484f3d0-michael-iruomas-projects.vercel.app/",
+      github: "https://github.com/Champagne2412/treatmeals",
+    },
+    {
+      title: "Blog Website",
+      description:
+        "A responsive blog website where users can read articles, explore posts by category, and enjoy a simple, user-friendly reading experience.",
+      image: project9,
+      tags: ["React"],
+      link: "https://debug-diary-blog.vercel.app/",
+      github: "https://github.com/Champagne2412/Debug-Diary-blog",
     },
   ];
 

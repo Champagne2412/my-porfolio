@@ -57,9 +57,9 @@ const About = () => {
               </p>
               <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
                 <p className="text-justify text-lg font-medium italic text-foreground">
-                  As an aspiring developer, I’m eager to learn from experienced
+                  As an experienced developer, I’m eager to learn more from experienced
                   professionals and apply my skills in a real-world environment.
-                  I’m currently seeking an internship opportunity where I can
+                  I’m currently available for any web development job opportunity where I can
                   grow technically, collaborate effectively, and add value to a
                   development team.
                 </p>

@@ -5,7 +5,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: "https://github.com/Champagne2412", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/iruoma-michael-2612643a7", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
+    { icon: Twitter, href: "https://x.com/worstdev3loper", label: "Twitter" },
   ];
 
   const footerLinks = [
@@ -26,7 +26,7 @@ const Footer = () => {
               TSN<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Michael Iruoma. All rights reserved.
+              © {currentYear} Iruoma Michael. All rights reserved.
             </p>
           </div>
 

@@ -6,7 +6,7 @@ const Qualifications = () => {
       period: "2025",
       heading: "Backend Development (Technical Training)",
       description:
-        "Built server-side applications using Node.js, Express, and MongoDB, focusing on API development, database operations, authentication, and application logic.",
+        "Built server-side applications using Node.js, Express.js, and MongoDB, focusing on API development, database operations, authentication, and application logic.",
       technologies: ["Node JS", "Express JS", "Mongo DB"],
       current: true,
     },
